@@ -1,0 +1,28 @@
+/* Basic CSS Syntax
+
+1. Selectors */
+
+p{
+    background-color: antiquewhite;
+}
+
+h1,h2,h3{
+    color:yellow;
+}
+
+
+#testing1{
+    color:aqua;
+}
+
+#testing2{
+    color:green;
+}
+
+.para1{
+    color:darksalmon;
+}
+
+.para2{
+    color:cyan;
+}

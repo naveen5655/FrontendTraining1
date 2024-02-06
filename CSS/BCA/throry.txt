@@ -1,0 +1,37 @@
+CSS syntax:
+
+external css: 
+
+<head>
+   <link rel="stylesheet" href="index.css">
+</head>
+
+
+index.css:
+
+selectors:
+
+p1{
+
+}
+
+------------------------------------------------------------------>
+id: 
+
+id -> 
+css:
+#test{
+    color:red;
+}
+<h1 id="test"></h1>
+
+------------------------------------------------------------------->
+
+class: use uniquely , like a function , we can access this to may 
+
+.para{
+    color: red;
+}
+
+<div class="para> HI naveen
+</div>
