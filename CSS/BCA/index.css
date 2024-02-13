@@ -2,15 +2,25 @@
 
 1. Selectors */
 
+
+/* ELement selector */
 p{
     background-color: antiquewhite;
 }
 
 h1,h2,h3{
+    /* all these vales are text properties, like color, font-family,font-size */
     color:yellow;
+    font-family: cursive;
+    font-size: larger;
+}
+
+input[type="text"]{
+    border:6px solid #ccc;
 }
 
 
+/* id selector */
 #testing1{
     color:aqua;
 }
@@ -19,6 +29,8 @@ h1,h2,h3{
     color:green;
 }
 
+
+/* class selector */
 .para1{
     color:darksalmon;
 }
@@ -26,3 +38,10 @@ h1,h2,h3{
 .para2{
     color:cyan;
 }
+
+
+/* Universal selector : it will apply as default */ 
+/* *{
+    background-color: yellow;
+} */
+

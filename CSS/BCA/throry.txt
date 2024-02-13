@@ -1,3 +1,29 @@
+Syllabus:
+
+Introduction to css
+1. selectors
+2. Properties and Values
+3. Comments
+
+-Apply css:
+1. Inline css
+2. Internal css
+3. External css
+
+- CSS Selectors:
+Element
+id
+class
+Universal
+Attribute
+
+- CSS Properties
+Text Properties
+Box Model
+Display
+Positioning
+
+
 CSS syntax:
 
 external css: 
@@ -8,15 +34,17 @@ external css:
 
 
 index.css:
+---------------------------------------------------->
+Selectors:
 
-selectors:
+ELement selectors:
 
 p1{
 
 }
 
 ------------------------------------------------------------------>
-id: 
+id: selector
 
 id -> 
 css:
@@ -27,7 +55,7 @@ css:
 
 ------------------------------------------------------------------->
 
-class: use uniquely , like a function , we can access this to may 
+class: selector =>use uniquely , like a function , we can access this to may 
 
 .para{
     color: red;
@@ -35,3 +63,44 @@ class: use uniquely , like a function , we can access this to may
 
 <div class="para> HI naveen
 </div>
+
+---------------------------------------->
+Internal css:
+
+<head>
+<style>
+
+.class{
+    color: red;
+}
+</style>
+</head>
+
+---------------------------------------->
+Inline css:
+
+<h4 style="color:blue"> hi naveen</h4>
+
+
+------------------------------------------------------------------>
+
+Universal selector: 
+
+*{
+    background color: red;
+}
+
+
+--------------------------------------------------->
+
+Properties:
+
+1. Text Properties
+
+margin: distance b/w screen and border
+
+pading: distance b/w contenent and border
+
+
+------------------------------------------------------------>
+

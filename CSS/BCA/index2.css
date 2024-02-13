@@ -1,0 +1,23 @@
+/* 
+margin => space around  (outside) an element  whole body (box)
+
+padding: difference b/w main content and content (body)
+
+Display property 
+1.hidden  visibility
+
+*/
+
+.U{
+    background-color: yellowgreen;
+}
+
+.d2{
+    color:black;
+    visibility:unset;
+}
+.d1 {
+    margin-top:20px;
+    padding-bottom: 40px;
+    
+}
