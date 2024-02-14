@@ -1,5 +1,8 @@
 Syllabus:
 
+
+link for animation: https://animate.style/
+
 Introduction to css
 1. selectors
 2. Properties and Values

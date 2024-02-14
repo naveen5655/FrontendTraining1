@@ -1,0 +1,86 @@
+/* Flexbox
+1. Grids
+2. colors and background
+3. Funts and Typography
+Transitions and Animation
+
+- Tailwind
+
+*/
+
+
+
+/* 
+Flexbox or  Flex:
+
+flexible Layout - IT helps to develop in forms of rows and colums
+
+*/
+
+.div1 {
+    display: flex;
+    /* text related*/
+    justify-content: center;
+    /* related to height from the center (same height for 2 elements ) */
+    align-items: center;
+    /* if doesn't fit in same row, it will go to next row*/
+    flex-wrap: wrap;
+    /* Arranges items in a row ( default) */
+    flex-direction: row;
+}
+
+
+/* Grid  : we can limit the number of rows and colums like table
+Generally it divide into 12 parts
+*/
+
+.griddiv {
+    display: grid;
+    grid-template-columns: repeat(3);
+}
+
+
+h1{
+    /* text style change to italic*/
+    font-style: italic;
+}
+
+h2{
+    /* draw underlinw */
+    text-decoration: underline;
+    /* provide extra space words*/
+    letter-spacing: 2px;
+}
+
+
+/* Transition : move from one phase to another phase ( change color one time to another) */
+.button{
+   background-color: blue;
+   /* text color*/
+   color: white;
+   transition: background-color 0.3 ease-in-out;
+
+}
+
+
+/* color will change if i move my cursor */
+.button:hover{
+    background-color: greenyellow;
+}
+
+
+/* Animation 
+
+KeyFrames - time realted
+
+*/
+
+@Keyframes slide{
+    /* when i click on box, it went to downside */
+    0% {
+        transform: translateX(0); /* starting position */
+    }
+    100% {
+        transform: translateX(200px),200px; /* Ending position (down, diagonal) */
+    }
+}
